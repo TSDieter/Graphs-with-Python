@@ -1,12 +1,8 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/TSDieter/homework-math-2/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+### Vectors with Python
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is an method how to use vectors with python and how to display them
 
 ```markdown
 Syntax highlighted code block
