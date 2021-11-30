@@ -11,27 +11,62 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 ```markdown
 Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+import os
+import math
+import numpy as np
 
-- Bulleted
-- List
+#Solve Linear Equations with Python
 
-1. Numbered
-2. List
+#Array
+A = np.array([[3, -9], [2,4]])
 
-**Bold** and _Italic_ and `Code` text
+#print(A)
 
-[Link](url) and ![Image](src)
+#dasselbe mit einem Vektor namens b
+
+b = np.array([-42,2])
+
+Lösung = np.linalg.solve(A,b)
+
+print(Lösung)
+
+#---------------------------------#
+#Equation is 
+#x-2y-z=6
+#2x+2y=z+1
+#2z-1=y+x
+
+M = np.array([[1,-2, -1],[2,2,-1],[-1,-1,2]])
+print("Die Gleichung Ist")
+#print(M)
+c = np.array([6,1,1])
+y = np.linalg.solve(M,c)
+print(y)
+
+#Vektoren in Python
+# A = G
+
+#x = 10
+
+x = 20
+
+while x > 0:
+   print(x)
+   x -=1
+
+#Dimensionen
+G = [2, 3, 4]
+H = [4, 9, 16]
+
+for z in zip(G, H):
+    for z in zip(G, H):
+        print(z)
+
+for a, b in zip(G, H):
+    print(G, H)
+
+    def vectorAdd (G, H):
+        return [G+H for a, b in zip(G, H)]
+
+        vectorAdd([1, 4], [2, -2])
 ```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TSDieter/homework-math-2/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
